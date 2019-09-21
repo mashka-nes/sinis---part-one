@@ -1,0 +1,297 @@
+/*mobile*/
+ 
+html {
+    background-color: #F0ECEE;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600, 300, 400;
+}
+#container {
+    background-image: none;
+  }
+
+
+  
+   .flex-container {
+       display:flex;
+       flex-direction: column;
+       padding: 0%;
+       margin: 0px;
+   }
+
+   .logo {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 49%;
+    margin-left:0%;
+    padding: 2px;
+    padding-left:10px;
+    font-weight:600;
+    font-size: 20px;
+}
+.logo:hover {
+    background-color: #FF4850;
+}
+
+a:hover {
+
+    background-color: #88898B;
+}
+
+.red {
+    color: #FF4850;
+    margin-left: 5px;
+    padding-right:10px;
+}
+
+.header-message {
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 0;
+ 
+}
+
+.red-word {
+  color: #FF4850;
+  margin-left: 5px;
+  padding-right:10px; 
+  font-weight: 600;  
+}
+
+.main-message {
+
+ 
+color: #88898B;
+}
+
+.find-out-button {
+  color: white;
+  background-color: #FF4850;  
+  padding: 10px;
+  border-radius: 15px;
+  width: 100%;
+  border: none;
+  font-size: 15px;
+  text-align: center;
+
+}
+
+.find-out-button:hover {
+    background-color: #CCC;
+}
+
+.main {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 20%;
+  align-items: flex-start;
+
+}
+/*        display: flex;*/
+/*    }*/
+/*    .flex-container {*/
+/*        list-style: none;*/
+/*        display: flex;*/
+/*        flex-flow: column;*/
+/*        justify-content: flex-end;*/
+/*        padding: 30px;*/
+/*    }*/
+
+/*}*/
+
+
+/* 
+} */
+
+.bold {
+font-weight: 600;
+}
+
+.italic {
+font-style: italic;
+}
+
+.oblique {
+font-style: oblique;
+}
+
+.block {
+ width: 100%;
+ border: none;
+ background-color: #F0ECEE;
+ padding: 10px;
+ font-size: large;
+ color: #88898B;
+ cursor: pointer;
+ text-align: left;
+ border-radius: 15px;
+ margin-top: 0;
+}
+
+.block:hover {
+background-color: #CCC;
+}
+
+.mobile {
+color: white;
+background-color: #FF4850;
+text-align: center;
+}
+
+p:hover {
+
+    background-color: #FF4850;
+}
+  @media only screen and (min-width: 768px) {
+  
+      /*desktop*/
+  
+   html {
+    font-family: 'Fira Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    font-weight: 600, 300, 400;
+   }
+
+      #container {
+          background-image: url('../../Desktop/sinis-part-one/bulldog.jpg');
+          background-size: 100%;
+          height: 100%;
+      }
+      .flex-container {
+          list-style: none;
+          display: flex;
+          justify-content: flex-end;
+          flex-direction: row;
+          flex-wrap: wrap-reverse;
+          padding: 0%;
+          margin: 0px;
+      }
+  .logo {
+      display:flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-right: 49%;
+      margin-left:0%;
+      padding: 1px;
+      font-weight:600;
+  }
+  
+  .logo:hover {
+
+    background-color: #FF4850;
+
+  }
+
+  .red {
+      color: #FF4850;
+      margin-left: 5px;
+      padding-right:10px;
+  }
+
+  .header-message {
+    font-weight: 600;
+    font-size: 20px;
+   
+  }
+
+.red-word {
+    color: #FF4850;
+    margin-left: 5px;
+    padding-right:10px; 
+    font-weight: 600;  
+}
+
+p:hover {
+
+    background-color: #FF4850;
+}
+
+.main-message {
+
+ font-style: oblique; 
+ color: #88898B;
+}
+
+.find-out-button {
+
+    color: white;
+    background-color: #FF4850;  
+    padding: 10px;
+    margin: 20px 40px 20px;
+    border-radius: 15px;
+    width: 20em;
+
+}
+.find-out-button:hover {
+    background-color: #CCC;
+}
+
+.main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 20%;
+    align-items: flex-start;
+    padding:0 2em 0;
+}
+/*        display: flex;*/
+/*    }*/
+/*    .flex-container {*/
+/*        list-style: none;*/
+/*        display: flex;*/
+/*        flex-flow: column;*/
+/*        justify-content: flex-end;*/
+/*        padding: 30px;*/
+/*    }*/
+
+/*}*/
+
+
+/* 
+} */
+
+.bold {
+ font-weight: 600;
+}
+
+.italic {
+ font-style: italic;
+}
+
+.oblique {
+ font-style: oblique;
+}
+
+.block {
+   border: none;
+   background-color: #F0ECEE;
+   padding: 10px;
+   font-size: large;
+   color: #88898B;
+   cursor: pointer;
+   text-align: left;
+   border-radius: 15px;
+   width: 100%;
+}
+
+.block:hover {
+ background-color: #CCC;
+}
+
+.block.active{
+ color: white;
+ background-color: #FF4850;
+}
+
+a:hover {
+
+ background-color: #88898B;
+}
+p:hover {
+ background-color: #FF4850;   
+}
+}
